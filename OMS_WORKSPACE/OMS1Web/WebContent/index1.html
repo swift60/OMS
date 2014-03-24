@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%@page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+<title>signup</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style type="text/css">
+.submitBtn {
+	TEXT-TRANSFORM: uppercase; 
+OUTLINE-STYLE: none;
+OUTLINE-COLOR: invert;
+OUTLINE-WIDTH: medium;
+WIDTH: 128px; 
+FONT: 12px Georgia, "Times New Roman", Times, serif;
+BACKGROUND: url(images/button.png) no-repeat; HEIGHT: 27px; COLOR: #fff; MARGIN-LEFT: 18px; CURSOR: pointer
+}
+
+</style>
+<script language="javascript">
+
+function check()
+{
+var d,e;
+
+d=document.f1.t2.value;
+
+if(d=="")
+{
+alert("password field is empty");
+}}
+
+
+
+function func_1(thisObj, thisEvent) {
+//use 'thisObj' to refer directly to this component instead of keyword 'this'
+//use 'thisEvent' to refer to the event generated instead of keyword 'event'
+
+}</script>
+
+<link rel="stylesheet" type="text/css" href="theme/vertical-sitemap.css">
+</head>
+<body bgcolor="#acc3d5" >
+
+<form name="f1" action="login.jsp">
+
+<table border="0"  background="images/bg-header.jpg">	<tr >
+		<td height="30" align="center" colspan="3"><font color="red"
+			face="Times New Roman" size="+1">Invalid Username and/or Password</font></td>
+		<td height="30" width="168"></td>
+		<td height="30" width="461"></td>
+		<td valign="middle" align="right" height="30" width="220"></td>
+		<td height="30" align="center" valign="middle"></td>
+		<td align="right" height="30"></td>
+	</tr><tr>
+		
+		<td align="right" width="78" height="114"><br/><img src="images/memberLogin.png"></td>
+		<td width="156" height="114"><table>
+			<tr><td width="155">
+				<input type="text" name="username" size="24" value="username"></td>
+			</tr>
+			<tr>
+				<td width="155"><input type="checkbox" value="Remember">
+				Remember me</td>
+			</tr>
+			
+		</table>
+		</td>
+		<td width="130" height="114">
+		<table>
+			<tr><td>
+				<input type="password" name="password" id="password" maxlength="30" size="19" value="password"></td>
+			</tr>
+			<tr><td>
+				<a href="forgotpassword.html">forgot password?</a></td>
+			</tr>
+			
+		</table>
+		</td>
+		<td valign="middle" align="right" width="168" height="114"><input
+			type="submit" onclick="check();return checkmail(this.form.myemail)" value="start shopping" class="submitBtn">
+			</td>
+		<td align="center" valign="middle" height="114" width="461"><img
+			border="0" src="images/notAmember.png" height="1"><font size="+2">
+		<br>
+		</font><font size="+3">INORBIT ONLINE SHOPPING</font><br>
+		<p align="right">Membership is free</p>
+		</td>
+		<td align="right" height="114" width="220"><a href="signup.html"><img src="images/joinnow.jpg"></a></td>
+	</tr>
+
+</table>
+</form>
+<font size="+1"> <marquee behavior="scroll">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td><img border="0" src="images/01.jpg"></td>
+			<td><img border="0" src="images/02.jpg"></td>
+			<td><img border="0" src="images/03.jpg"></td>
+			<td><img border="0" src="images/04.jpg"></td>
+			<td><img border="0" src="images/05.jpg"></td>
+			<td><img border="0" src="images/06.jpg"></td>
+			<td><img border="0" src="images/07.jpg"></td>
+			<td><img border="0" src="images/08.jpg"></td>
+		</tr>
+	</tbody>
+</table>
+</marquee> </font>
+<pre>
+</pre>
+
+<table  background="images/bg-footer.jpg" border="1">
+
+		<tr>
+			<td  width="401"><p>inorbit.com
+			is a private online shopping website based in India. Here, you get
+			great deals on shoes, mobile phones, sunglasses, watches, jewelry,
+			perfumes, T-shirts etc. </p></td>
+			<td  width="618">CONTACT US|SHIPPING |PRIVACY TERMS  CONDITIONS WEBS|ITE COMMENTS|  
+			<a href="order.jsp" target="_self">TRACK ORDER</a></td>
+			<td  width="228"><img src="images/facebook.jpg">
+			<img src="images/twitter.jpg"><br>
+			Terms of Service 2012</td>
+		</tr>
+	
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>
+	OMS1Web</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>
+		controllerservlet</display-name>
+		<servlet-name>controllerservlet</servlet-name>
+		<servlet-class>com.OMS1.servlet.controllerservlet</servlet-class>
+	</servlet>
+	
+	
+	<servlet-mapping>
+		<servlet-name>controllerservlet</servlet-name>
+		<url-pattern>/controllerservlet</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<description>
+			This is the description for the sample servlet
+		</description>
+		<display-name>CheckUserName</display-name>
+		<icon>
+			<small-icon>icons/small.gif</small-icon>
+			<large-icon>icons/small.gif</large-icon>
+		</icon>
+		<servlet-name>CheckUserName</servlet-name>
+		<servlet-class>com.OMS1.servlet.CheckUserName</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckUserName</servlet-name><url-pattern>/CheckUserName</url-pattern>
+	</servlet-mapping></web-app>
